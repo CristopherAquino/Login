@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using Comun.Cache;
+using Presentacion;
 
 namespace QFacture
 {
@@ -109,6 +110,26 @@ namespace QFacture
             lblUsername.Text = UserCache.LoginName;
             lblPosition.Text = UserCache.Position;
             lblEmail.Text = UserCache.Email;
+        }
+
+        private void btnConsultaU_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new FormClientes());
+        }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Inicio());
+        }
+
+        private void btnCaptura_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new CapturarF());
+        }
+
+        private void btnMod_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Admin());
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
