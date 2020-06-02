@@ -90,32 +90,6 @@ namespace QFacture
             fh.Show();
         }
 
-        private void btnInicio_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Interfaz_Load(object sender, EventArgs e)
-        {
-            MostrarFormLogo();
-        }
-
-
-        private void btnConsultaFactura_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnInfoUser_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnInfoAdmin_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnLogOut_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("¿Desea Cerrar Sesión?", "Cerrar Sesión", MessageBoxButtons.YesNo) == DialogResult.Yes)
@@ -124,21 +98,6 @@ namespace QFacture
                 Login login = new Login();
                 login.Show();
             }
-        }
-
-        private void btnCuenta_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnConsultaU_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void MostrarFormLogo()
-        {
-            
         }
 
         private void FormPrincipal_Load(object sender, EventArgs e)

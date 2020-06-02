@@ -89,7 +89,6 @@
             this.btnConsultaU.TabIndex = 22;
             this.btnConsultaU.Text = "      Consulta Factura";
             this.btnConsultaU.UseVisualStyleBackColor = true;
-            this.btnConsultaU.Visible = false;
             // 
             // btnLogOut
             // 
@@ -123,7 +122,6 @@
             this.btnInfoUser.TabIndex = 18;
             this.btnInfoUser.Text = "Info. Usuario";
             this.btnInfoUser.UseVisualStyleBackColor = true;
-            this.btnInfoUser.Click += new System.EventHandler(this.btnInfoUser_Click);
             // 
             // btnFacturar
             // 
